@@ -61,12 +61,14 @@ use `npm run report` to open the test report
 
 Execution Video:
 
-[![Watch the video](https://raw.githubusercontent.com/tanujapatel/wdio_appium_cucumber/main/executionVideo/thumbnail.jpg)](https://raw.githubusercontent.com/tanujapatel/wdio_appium_cucumber/main/executionVideo/execution_recording.mp4)
+[![Watch the video](https://raw.githubusercontent.com/tanujapatel/wdio_appium_cucumber/main/executionVideo/thumbnail.jpg)](https://www.youtube.com/watch?v=iMUN7eu8sZU)
 
+Check YouTube
+<div>
 <video width="100%" controls>
-<source src="https://raw.githubusercontent.com/tanujapatel/wdio_appium_cucumber/main/executionVideo/execution_recording.mp4" type="video/mp4">
-<!--   Your browser does not support the video tag. -->
+  <source src="https://www.youtube.com/watch?v=iMUN7eu8sZU" type="video/mp4">
 </video>
+</div>
 
 
 
