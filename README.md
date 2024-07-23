@@ -1,10 +1,10 @@
 # MobileUI Automation Test Project Example with Appium & WebdriverIO
 
-<h3><ins>Description:</h3>
+## Description:
 
 An example project about Mobile automation (Android & iOS) testing using WebdriverIO. The test examples are created in Cucumber framework
 
-<h3><ins>Requirements</h3>
+## Requirements
   
 - NodeJS
 - Appium Server
@@ -13,22 +13,22 @@ An example project about Mobile automation (Android & iOS) testing using Webdriv
 - Xcode (for iOS Simulator)
 - Demo App (for testing sample) by Sauce Labs
 
-<h3><ins>Inside the project:</h3>
+### Inside the project:
 
-- <b>WebdriverIO Packages</b>
+- #### WebdriverIO Packages
     - Mocha and Cucumber as Test Framework
     - Allure as Test Reporter
     - Appium Server as a service to run the test
     - Appium Driver (`uiautomator2` & `xcuitest`)
 
-<h3><ins>How to setup:</h3>
+### How to setup:
 
-- Clone the project \
+- Clone the project  
   Run `npm install`
 
-<h3><ins>How to run the test:</h3>
+### How to run the test:
         
-<h4>Android:</h4>
+#### Android:
 
 - all the test
     - `npm run test-android-bdd`
@@ -37,7 +37,7 @@ An example project about Mobile automation (Android & iOS) testing using Webdriv
 - specific test case or suite using tags
     - `npm run test-android-bdd --cucumberOpts.tagExpression='@sanity and @stage'`
 
-<h4>iOS</h4>
+#### iOS
 
 - all the test
     - `npm run test-ios-bdd`
@@ -47,28 +47,25 @@ An example project about Mobile automation (Android & iOS) testing using Webdriv
     - `npm run test-ios-bdd --cucumberOpts.tagExpression='@sanity and @stage'`
 
 
-<h3><ins>Common issue might happen:</h3>
+### Common issue might happen:
 
 - Appium doesn't start automatically during the test (in local)
     
     - to solve the issue, just run the Appium server manually and re-run your test.
 
-<h3><ins>How the report look like?</h3>
+### How the report look like?
 
-<h4>Allure Report</h4>
+#### Allure Report
 
 use `npm run report` to open the test report
 
 Execution Video:
 
-[![Watch the video](https://raw.githubusercontent.com/tanujapatel/wdio_appium_cucumber/main/executionVideo/thumbnail.jpg)](https://www.youtube.com/watch?v=iMUN7eu8sZU)
+[![Watch the video](https://raw.githubusercontent.com/rahulmr/wdio_appium_cucumber/main/executionVideo/thumbnail.jpg)](https://www.youtube.com/watch?v=iMUN7eu8sZU)
 
 Check YouTube
-<div>
-<video width="100%" controls>
-  <source src="https://www.youtube.com/watch?v=iMUN7eu8sZU" type="video/mp4">
-</video>
-</div>
 
+<video src="https://raw.githubusercontent.com/rahulmr/wdio_appium_cucumber/main/executionVideo/execution_recording.mp4" > Video </video>
 
+[<img src="https://raw.githubusercontent.com/rahulmr/wdio_appium_cucumber/main/executionVideo/thumbnail.jpg" width="50%">](https://www.youtube.com/watch?v=iMUN7eu8sZU "Now in Android: 55")
 
