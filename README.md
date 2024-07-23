@@ -65,7 +65,12 @@ Execution Video:
 
 Check YouTube
 
-<video src="https://raw.githubusercontent.com/rahulmr/wdio_appium_cucumber/main/executionVideo/execution_recording.mp4" > Video </video>
+<video width="600" height="400" controls> 
+  <source="https://raw.githubusercontent.com/rahulmr/wdio_appium_cucumber/main/executionVideo/execution_recording.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-[<img src="https://raw.githubusercontent.com/rahulmr/wdio_appium_cucumber/main/executionVideo/thumbnail.jpg" width="50%">](https://www.youtube.com/watch?v=iMUN7eu8sZU "Now in Android: 55")
+Image 
+
+[<img src="https://raw.githubusercontent.com/rahulmr/wdio_appium_cucumber/main/executionVideo/thumbnail.jpg" width="60%">](https://www.youtube.com/watch?v=iMUN7eu8sZU "Now in Android: 55")
 
